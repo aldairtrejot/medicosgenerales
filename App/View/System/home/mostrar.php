@@ -43,7 +43,7 @@
 
     <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
         <h6 style="font-weight: bold;font-size: 16px;" class="text-result-normal  input-text-form div-spacing">ESTADO
-            NACIMIENTO: <label id="post_nacimiento" class="text-result-normal"></label>
+            NACIMIENTO: - - -<label id="post_nacimiento" class="text-result-normal"></label>
         </h6>
     </div>
 

@@ -108,6 +108,8 @@
                         </div>
                     </div>
 
+
+                    <!--
                     <div class="row mx-1">
                         <div class="col-12 col-md-6 col-lg-4 col-xl-4 mb-4">
                             <fieldset disabled>
@@ -132,9 +134,10 @@
 
 
                     </div>
+-->
 
                     <div class="container">
-                        <p>Elige la CLUE adecuada según tu preferencia*</p>
+                        <p>Elige la CLUES adecuada según tu preferencia*</p>
                     </div>
 
 

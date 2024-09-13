@@ -2,7 +2,7 @@
 
 $password = "pg2024";
 $username = "postgres";
-$dbname = "procesoreclutamiento_produccion";
+$dbname = "medicosgenerales_produccion";
 $host = "localhost";
 $port = "5432";
 $options = "--client_encoding=UTF8";

@@ -22,7 +22,7 @@ function getData() {
     let post_telefono = document.getElementById("post_telefono");
     let post_cedula = document.getElementById("post_cedula");
     let post_carrera = document.getElementById("post_carrera");
-    let post_nacimiento = document.getElementById("post_nacimiento");
+   // let post_nacimiento = document.getElementById("post_nacimiento");
     let post_entidad_clue = document.getElementById("post_entidad_clue");
     let post_clue = document.getElementById("post_clue");
     let post_clue_nombre = document.getElementById("post_clue_nombre");
@@ -40,7 +40,7 @@ function getData() {
             post_telefono.textContent = result[3];
             post_cedula.textContent = result[4];
             post_carrera.textContent = result[5];
-            post_nacimiento.textContent = result[6];
+           // post_nacimiento.textContent = result[6];
             post_entidad_clue.textContent = result[9];
             post_clue.textContent = result[7];
             post_clue_nombre.textContent = result[8];
@@ -74,10 +74,8 @@ function modalAgregarEditar() {
             $("#nombre_unidad").val(jsonData.nombre);
 
 
-            $('#id_cat_entidad_nacimiento').html(jsonData.estados);
             $('#id_clues').html(jsonData.clue);
 
-            $('#id_cat_entidad_nacimiento').selectpicker('refresh');
             $('#id_clues').selectpicker('refresh');
             $('.selectpicker').selectpicker();
         }
@@ -128,7 +126,7 @@ function actualizarInformacionPos() {
         curp: $("#curp").val(),
         email: $("#email").val(),
         telefono: $("#telefono").val(),
-        id_cat_entidad_nacimiento: $("#id_cat_entidad_nacimiento").val(),
+        id_cat_entidad_nacimiento: 1,
         id_clues: $("#id_clues").val(),
     },
         function (data) {
@@ -154,7 +152,6 @@ function validarDataPost() {
     let curp = document.getElementById("curp").value;
     let email = document.getElementById("email").value;
     let telefono = document.getElementById("telefono").value;
-    let id_cat_entidad_nacimiento = document.getElementById("id_cat_entidad_nacimiento").value;
     let id_clues = document.getElementById("id_clues").value;
 
     if (validarData(nombre, 'Nombre') &&
@@ -162,7 +159,6 @@ function validarDataPost() {
         validarData(curp, 'CURP') &&
         validarData(email, 'Correos') &&
         validarData(telefono, 'No. Telefónico') &&
-        validarData(id_cat_entidad_nacimiento, 'Entidad de nacimiento') &&
         validarData(id_clues, 'CLUES disponibles') &&
         campoInvalido(validarCurp(curp), 'CURP') &&
         caracteresCount('No. Telefónico', 10, telefono) &&

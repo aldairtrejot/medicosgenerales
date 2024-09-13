@@ -12,7 +12,7 @@ include '../../nav-menu.php';
                         <div class="vertical-line"></div>
                     </div>
                     <div class="col padding-left-0">
-                        <h4>SISTEMA INTEGRAL DE RECURSOS HUMANOS</h4>
+                        <h4>SISTEMA INTEGRAL DE RECURSOS HUMANOS PARA MÉDICOS GENERALES</h4>
                     </div>
                 </div>
             </div>
