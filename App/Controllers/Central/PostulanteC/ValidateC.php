@@ -1,0 +1,32 @@
+<?php
+
+$password = "pg2024";
+$username = "postgres";
+$dbname = "medicosgenerales_produccion";
+$host = "localhost";
+$port = "5432";
+$options = "--client_encoding=UTF8";
+$connectionDB = "host=$host port=$port dbname=$dbname user=$username password=$password options=$options";
+$connectionDBsPro = pg_pconnect($connectionDB);
+
+
+include '../../../Controllers/Hrae/GlobalC/ArrayC.php';
+//include '../../../../conexion.php';
+include 'queryM.php';
+
+$postulantesM = new PostulantesM();
+$row = new Row();
+
+$id_clues = $_POST['id_clues'];
+
+$bool = true;
+
+if (pg_num_rows($postulantesM->getUltimoClues($id_clues)) > 0) {
+    $bool = false;
+}
+
+$var = [
+    'bool' => $bool,
+];
+
+echo json_encode($var);
