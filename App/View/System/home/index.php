@@ -30,8 +30,7 @@ include '../../nav-menu.php';
                 <div class="container">
                     <div class="alert alert-warning" role="alert">
                         <?php echo $nombre ?>. Para continuar con el proceso de selección de candidatos de la bolsa de
-                        trabajo IMSS-BIENESTAR, utiliza el botón 'Actualizar' para complementar la información. Si estás
-                        interesado en las ofertas laborales de tu entidad de nacimiento, selecciona la CLUES disponible
+                        trabajo IMSS-BIENESTAR, utiliza el botón 'Actualizar' para complementar la información. Selecciona la CLUES disponible
                         que tenemos para ti. Si la información es correcta, <strong>aparecerá un mensaje en verde
                             indicando
                             éxito.</strong> En caso contrario, <strong>se mostrará un mensaje en rojo con las

@@ -41,9 +41,19 @@
     </div>
     <br>
 
+    <input type="hidden" id="post_nacimiento">
+
+    <!--
     <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
         <h6 style="font-weight: bold;font-size: 16px;" class="text-result-normal  input-text-form div-spacing">ESTADO
             NACIMIENTO: - - -<label id="post_nacimiento" class="text-result-normal"></label>
+        </h6>
+    </div>
+        -->
+
+    <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+        <h6 style="font-weight: bold;font-size: 16px;" class="text-result-normal  input-text-form div-spacing">CLUE:
+            <label id="post_clue" class="text-result-normal"></label>
         </h6>
     </div>
 
@@ -53,11 +63,7 @@
         </h6>
     </div>
 
-    <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-        <h6 style="font-weight: bold;font-size: 16px;" class="text-result-normal  input-text-form div-spacing">CLUE:
-            <label id="post_clue" class="text-result-normal"></label>
-        </h6>
-    </div>
+
 
     <div class="col-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         <h6 style="font-weight: bold;font-size: 16px;" class="text-result-normal  input-text-form div-spacing">NOMBRE DE
